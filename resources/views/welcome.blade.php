@@ -1,5 +1,5 @@
 @extends('layouts.layout')
 @section('body')
-   @livewire('todos')
-   @livewire('makeTodo')
+    @livewire('todos', ['lazy' => true])
+    @livewire('makeTodo')
 @endsection
